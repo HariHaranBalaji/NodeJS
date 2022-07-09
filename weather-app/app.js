@@ -60,6 +60,7 @@
 
 const geocode=require('./utils/geocode')
 const forecast=require('./utils/forecast')
+const { UCS2_HUNGARIAN_CI } = require('mysql/lib/protocol/constants/charsets')
 
 //--------------------This helps to get input without quotes (i.e)two or more words
 // const cmdinput=process.argv
