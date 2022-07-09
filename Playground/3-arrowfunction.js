@@ -13,7 +13,7 @@ const tasks = {
         text: 'Clean yard',
         completed: false
     }, {
-        text: 'Film course',
+        text: 'Flim course',
         completed: false
     }],
     getTasksToDo(){
